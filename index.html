@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> 1A2B </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<input id="enter" type="number" placeholder="1A2B GAME">
+		<button onclick="allReset()"> Reset </button>
+		<button id="go" onclick="submit()"> Go </button> <br/>
+		<button class="number" onclick="addValue(1)"> 1 </button> 
+		<button class="number" onclick="addValue(2)"> 2 </button> 
+		<button class="number" onclick="addValue(3)"> 3 </button> <br/>
+		<button class="number" onclick="addValue(4)"> 4 </button> 
+		<button class="number" onclick="addValue(5)"> 5 </button> 
+		<button class="number" onclick="addValue(6)"> 6 </button> <br/>
+		<button class="number" onclick="addValue(7)"> 7 </button> 
+		<button class="number" onclick="addValue(8)"> 8 </button> 
+		<button class="number" onclick="addValue(9)"> 9 </button> <br/>
+		<button class="number" onclick="addValue('0')"> 0 </button>
+		<button id="clear" onclick="addValue(false)"> Clear </button> <br/>
+		<p id="show"></p>
+		<div id="historyPlace"></div>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
